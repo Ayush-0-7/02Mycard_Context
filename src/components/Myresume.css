@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;0,900;1,700&family=Source+Code+Pro:wght@600;700&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,900;1,700&family=Source+Serif+Pro:wght@600&display=swap');
+
+:root {
+  --indigo: #05234C;
+  --light-green: #40C69F;
+  --dark-green: #2E765E;
+  --pink: #D62B83;
+  --white: #fdfdfd;
+}
+
+body {
+  font-family: 'Source Sans Pro', helvetica, sans-serif;
+}
+
+nav {
+  background-color: var(--dark-green);
+  font-family: 'Source Code Pro', monospace;
+}
+
+header {
+  background-color: var(--indigo);
+  color: var(--white);
+}
+
+strong {
+  color: var(--white);
+  text-shadow: 3px 3px 0px var(--light-green);
+  text-decoration: 4px underline wavy var(--pink);
+  text-underline-offset: 12px;
+}
+
+.card, .card i {
+  color: var(--indigo);
+}
+
+.card {
+  box-shadow: -8px 8px 0px var(--light-green);
+}
+
+/* SHOW MOBILE MENU */
+.show {
+  display: block;
+}
+
+.fa-times, .fa-bars {
+  color: var(--white) !important;
+}
+
+#mobileMenu {
+  background: var(--dark-green);
+  color: var(--white);
+  font-family: 'Source Code Pro', monospace;
+}
+
+#view-works {
+  background: var(--pink);
+  color: var(--white);
+}
+
+#view-works:hover, #view-works:focus, button.bg-transparent:hover, button.bg-transparent:focus {
+  filter: brightness(115%);
+  transform: scale(1.015);
+}
+
+button.bg-transparent {
+  border: 3px solid var(--pink);
+  color: var(--pink);
+}
+
+
+#services {
+  background: var(--light-green);
+}
+
+
+#skills {
+  background: var(--indigo);
+  margin-top: -20%;
+}
+
+footer {
+  background: var(--pink);
+  color: var(--white);
+}
+
+footer small, footer a {
+  opacity: .9;
+}
+
+footer small a {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
+}
